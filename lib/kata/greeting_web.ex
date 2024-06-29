@@ -5,7 +5,9 @@ defmodule GreetingWeb do
   plug(:dispatch)
 
   get "/greet" do
-    send_resp(conn, 200, Greeting.greet())
+    params = Plug.Conn.fetch_query_params(conn).query_params
+
+    send_resp(conn, 200, Greeting.greet(params["name"]))
   end
 
   match _ do
