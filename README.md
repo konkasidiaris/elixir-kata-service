@@ -1,21 +1,5 @@
 # Kata
 
-**TODO: Add description**
+A TDD approach to creating services in Elixir with Plug & ExUnit
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `kata` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:kata, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/kata>.
-
+info on system can be found in `shell.nix`
